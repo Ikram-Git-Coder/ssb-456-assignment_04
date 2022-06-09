@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(121, 98, 82);
+    font-family: 'Kanit', sans-serif;
+}
+.section{
+    margin: 50px auto;
+    padding: 20px;
+    width: 50%;
+   
+    text-align: center;
+    text-transform: capitalize;
+}
+.heading{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 15px;
+    color: rgb(10, 10, 10);
+    font-weight: 100;
+}
+button{
+    border: 2px solid black;
+    padding: 10px 35px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: wheat;
+}
+.section img{
+    width: 100%;
+    height: 50%; /* those it's a bad practice that using height property of an image */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #0c0c0c;
+    text-align: left;
+    padding: 8px;
+}
